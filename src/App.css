@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: #2a6aa5;
+}
+
+nav * {
+  color: white;
+  margin-right: 1rem;
+}
+
+main {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2.5rem;
+  padding-left: 1rem;
+}
+
+button {
+  width: 13rem;
+  padding: 0.5rem;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  background-color: #2a6aa5;
+  border: 1px solid transparent;
+}
+
+button:hover {
+  color: #2a6aa5;
+  border: 1px solid #2a6aa5;
+  background-color: white;
+}
+
+.navUl {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.homeContainer {
+  background-color: rgb(179, 173, 173);
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  margin-left: 4rem;
+}
+
+.createPost {
+  display: flex;
+  justify-content: center;
+
+  /* align-items: center; */
+  /* height: 100vh; */
+}
+
+.form-post {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+  width: 100%;
+  margin-left: 4rem;
+  background-color: rgb(179, 173, 173);
+}
+.form-post input,
+.form-post textarea {
+  display: block;
+  margin: 0.5rem 0;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.form-post button {
+  width: 20rem;
+}
