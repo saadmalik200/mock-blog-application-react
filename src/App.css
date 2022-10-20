@@ -44,7 +44,7 @@ button {
   font-size: 1rem;
   letter-spacing: 2px;
   background-color: #2a6aa5;
-  border: 1px solid transparent;
+  border: 1px solid black;
 }
 
 button:hover {
@@ -57,7 +57,12 @@ button:hover {
   display: flex;
   list-style: none;
   gap: 2rem;
-  margin-bottom: 2rem;
+  align-items: center;
+  margin: 0rem 0 2rem 0;
+  padding: 0 2rem;
+  background: rgb(148, 148, 206);
+  height: 5rem;
+  font-size: 1.25rem;
 }
 
 .homeContainer {
@@ -82,8 +87,9 @@ button:hover {
   border: 1px solid black;
   padding: 1rem;
   width: 100%;
-  margin-left: 4rem;
+  margin: 0 4rem;
   background-color: rgb(179, 173, 173);
+  height: 32rem;
 }
 .form-post input,
 .form-post textarea {
@@ -95,4 +101,17 @@ button:hover {
 
 .form-post button {
   width: 20rem;
+}
+
+.current-post {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+  height: 32rem;
+  /* width: 100%; */
+  margin: 0 4rem;
+  background-color: rgb(179, 173, 173);
+  text-align: center;
+  font-size: 2.5rem;
 }

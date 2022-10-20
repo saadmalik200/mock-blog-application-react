@@ -3,7 +3,12 @@ import { useNavigate } from "react-router-dom";
 
 const CreateAPost = (props) => {
   const navigate = useNavigate();
-  const [data, setData] = useState({ username: "", title: "", textarea: "" });
+  const [data, setData] = useState({
+    username: "",
+    title: "",
+    textarea: "",
+    date: undefined,
+  });
 
   const submitHandle = (e) => {
     e.preventDefault();
@@ -15,7 +20,11 @@ const CreateAPost = (props) => {
   };
 
   const inputHandler = (e) => {
-    setData({ ...data, [e.target.name]: e.target.value });
+    setData({
+      ...data,
+      [e.target.name]: e.target.value,
+      date: new Date().toISOString(),
+    });
   };
 
   // console.log(data);

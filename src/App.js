@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import CreateAPost from "./components/CreateAPost";
 import ShowCurrentPosts from "./components/ShowCurrentPosts";
 import { useState } from "react";
+import SinglePage from "./components/SinglePage";
 
 const App = () => {
   const [allPost, setAllPosts] = useState([]);
@@ -25,6 +26,10 @@ const App = () => {
           <Route
             path="/showcurrentposts"
             element={<ShowCurrentPosts allPost={allPost} />}
+          />
+          <Route
+            path="/showcurrentposts/:singlepage"
+            element={<SinglePage allPost={allPost} />}
           />
         </Route>
       </Routes>
