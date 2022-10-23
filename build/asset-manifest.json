@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mock-blog-application-react/static/css/main.12aff804.css",
+    "main.js": "/mock-blog-application-react/static/js/main.3d657667.js",
+    "index.html": "/mock-blog-application-react/index.html",
+    "main.12aff804.css.map": "/mock-blog-application-react/static/css/main.12aff804.css.map",
+    "main.3d657667.js.map": "/mock-blog-application-react/static/js/main.3d657667.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12aff804.css",
+    "static/js/main.3d657667.js"
+  ]
+}

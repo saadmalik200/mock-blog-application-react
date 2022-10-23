@@ -31,6 +31,7 @@ const App = () => {
             path="/showcurrentposts/:singlepage"
             element={<SinglePage allPost={allPost} />}
           />
+          <Route path="*" element={<Home />} />
         </Route>
       </Routes>
     </>
